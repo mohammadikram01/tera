@@ -1,0 +1,17 @@
+# Ignore Terraform local working directory
+.terraform/
+
+# Ignore state files
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+
+# Lock file (regenerated automatically)
+.terraform.lock.hcl
+
+# Ignore backup state
+terraform.tfstate.backup
+
+# Ignore the statefile folder
+statefile/
